@@ -108,7 +108,7 @@ func downloadOnePost(subreddit, mediaType string, seen map[string]bool) error {
 func geminiPrompt(fuck string) string {
     ctx := context.Background()
     client, err := genai.NewClient(ctx, &genai.ClientConfig{
-        APIKey:  "AIzaSyDuCHSFZnqrG6e5hjUJm6MMM6acjCVx0fI",
+        APIKey:  "APIKEYHERE",
         Backend: genai.BackendGeminiAPI,
     })
     if err != nil {
